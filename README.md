@@ -1,8 +1,8 @@
 # python_password_validator
 Exercise to practice string operations
 
-Sure! Here's a beginner's exercise to practice string operations in Python:
-Exercise: Password Validator
+Here's a beginner's exercise to practice string operations in Python:
+# Exercise: Password Validator
 Write a program that prompts the user to enter a password and then validates that password using the following criteria:
 - The password must be at least 8 characters long.
 - The password must contain at least one uppercase letter.
