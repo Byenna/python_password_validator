@@ -9,7 +9,7 @@ def validate_password(password):
         return("Password must contain at least one lowercase letter")
     if not any(char.isdigit() for char in password):
         return("Password must contain at least one digit")
-    if not re.search(r"[!@#$%^&*()]"):
+    if not re.search(r"[!@#$%^&*()]", password):
         return("Password must contain at least one special character: !@#$%^&*() ")
     return "Password is valid!"
 
